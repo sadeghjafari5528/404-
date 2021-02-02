@@ -1,0 +1,386 @@
+.chProfileOwner-main-box {
+  width: 100%;
+  height: 100%;
+  background: #333b60;
+  overflow: auto;
+  border: 2px solid #5c6bc0;
+  /* margin: 6% 10% 10% 19%; */
+}
+
+.chProfileOwner-clearFix {
+  height: 2vh;
+}
+
+.chProfileOwner a {
+  color: #7a7aff73 !important;
+  font-size: medium !important;
+}
+
+.chProfileOwner a:hover {
+  color: #5151e9e7 !important;
+}
+
+.chProfileOwner p {
+  color: #7474ab !important;
+  font-size: medium !important;
+}
+
+.chProfileOwner label {
+  font-size: large !important;
+  color: #9d9dd1;
+}
+
+.chProfileOwner-profile {
+  height: 100% !important;
+  width: 100%;
+}
+
+.chProfileOwner-exitImg {
+  width: 3%;
+  position: absolute;
+  margin-left: 98.5%;
+  margin-top: -1.5%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.chProfileOwner-chLink {
+  width: 88%;
+  height: 8vh;
+
+  padding: 3%;
+  /* background-color: #c0bed4; */
+}
+
+.chProfileOwner-chLinkBox {
+  margin-top: 13%;
+}
+
+.chProfileOwner-chLinkBox:hover .chProfileOwner-chLinkEditImg {
+  visibility: visible;
+}
+
+.chProfileOwner-chLink p {
+  color: #9d9dd1;
+  min-height: 10vh;
+  padding-left: 2%;
+}
+
+.chProfileOwner-chLink input {
+  width: 100%;
+  min-height: 6vh;
+  padding-left: 1%;
+  /* background-color: #c0bed4; */
+  background-color: #18185285;
+  border-bottom: 1px solid #5c6bc0 !important;
+  margin-left: 0%;
+  color: #9d9dd1;
+  outline: none;
+}
+
+.chProfileOwner-chLinkEditImg {
+  width: 4%;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  margin-left: 77%;
+  margin-top: 8%;
+}
+
+.chProfileOwner-chLinkEditImg img {
+  margin-top: 50%;
+}
+
+.chProfileOwner-elements {
+  margin: 2%;
+}
+
+.chProfileOwner-profileImg {
+  width: 70%;
+  margin-top: 2%;
+  padding: 0%;
+  margin-left: 4%;
+}
+
+.chProfileOwner-profileImg img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.chProfileOwner-chName-chTitle-chLink {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 0%;
+}
+/* ##181852856b */
+.chProfileOwner-chName input {
+  width: 90%;
+  border-bottom: 1px solid #5c6bc0 !important;
+  /* background-color: #c0bed4; */
+  padding: 2%;
+  background-color: #18185285;
+  margin-left: 0%;
+  color: #9d9dd1;
+  outline: none;
+}
+
+.chProfileOwner-chNameEditImg {
+  width: 4%;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  margin-left: 77%;
+  margin-top: 7%;
+}
+
+.chProfileOwner-chNameBox {
+  width: 100%;
+  height: 5vh;
+}
+
+.chNameLable {
+  visibility: hidden;
+}
+
+.chProfileOwner-chNameBox:hover .chProfileOwner-chNameEditImg {
+  visibility: visible;
+}
+
+.chProfileOwner-chTitle input {
+  width: 85%;
+  /* background-color: #c0bed4; */
+  padding: 2%;
+  background-color: #18185285;
+  border-bottom: 1px solid #5c6bc0 !important;
+  margin-left: 0%;
+  color: #9d9dd1;
+  outline: none;
+}
+
+.chProfileOwner-chTitle p {
+  margin-left: 0%;
+  color: #9d9dd1;
+}
+
+.chProfileOwner-chTitle {
+  width: 100%;
+  margin-top: 5%;
+  color: #9d9dd1;
+}
+
+.chProfileOwner-chTitleEditImg {
+  width: 5%;
+  margin-left: 79%;
+  margin-top: -7%;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+}
+.chProfileOwner-chTitle:hover .chProfileOwner-chTitleEditImg {
+  visibility: visible;
+}
+
+.chProfileOwner-desBox {
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.chProfileOwner-des {
+  width: 94%;
+  padding: 3% !important;
+  min-height: 10vh;
+  /* background-color: #c0bed4; */
+}
+
+.chProfileOwner-desBox textarea {
+  outline: none;
+  width: 100%;
+  min-height: 8vh;
+  max-height: 15vh;
+  padding-left: 1%;
+  /* background-color: #c0bed4; */
+  background-color: #18185285;
+  color: #9d9dd1;
+  outline: none;
+  border-bottom: 1px solid #5c6bc0 !important;
+  resize: none;
+}
+
+.chProfileOwner-desBox p {
+  margin-left: 1%;
+  color: #9d9dd1;
+}
+
+.chProfileOwner-desEditImg {
+  width: 1.5%;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  margin-left: 59.3%;
+  margin-top: 4.5%;
+}
+
+.chProfileOwner-desBox:hover .chProfileOwner-desEditImg {
+  visibility: visible;
+}
+
+.chProfileOwner-activity {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.chProfileOwner-activity p {
+  color: #9d9dd1;
+  margin: auto;
+}
+/* .chProfileOwner-user-activity img {
+	width: 100%;
+  } */
+
+.chProfileOwner-asked-questions {
+  width: 22%;
+  border-right: 1px solid #5c6bc0 !important;
+  padding-right: 8%;
+}
+
+.chProfileOwner-answered-questions {
+  width: 22%;
+  border-left: 1px solid #5c6bc0 !important;
+  padding-left: 8%;
+}
+
+/* .chProfileOwner-deleteButton {
+  margin-top: 12%;
+} */
+
+.chProfileOwner-leaveButton button {
+  outline: none;
+  width: 100%;
+  height: 5vh;
+}
+
+.error {
+  color: red !important;
+  font-size: small !important;
+}
+
+.user-preview {
+  width: 100%;
+}
+
+.list-group {
+  height: 67vh;
+  overflow-y: auto;
+  margin-top: -6%;
+}
+
+.list-content {
+  min-height: 300px;
+}
+
+.list-content .list-group .title {
+  background: #11a8ab;
+  border: 0px solid #dddddd;
+  font-weight: bold;
+  color: #ffffff;
+}
+.list-group-item img {
+  height: 52px;
+  width: 52px;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem;
+  background-color: #394264;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 74px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  width: 97%;
+}
+.jumbotron .btn {
+  padding: 5px 5px !important;
+  font-size: 12px !important;
+}
+.prj-name {
+  color: #5bc0de;
+}
+.break {
+  width: 100%;
+  margin: 20px;
+}
+.name {
+  color: #5bc0de;
+}
+
+.jumbotron {
+  padding: 0rem;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 0rem !important;
+}
+div.container {
+  width: 700px;
+  margin: 0em auto;
+  height: 12px;
+}
+.t297148c7-3536-4112-bfac-662ef88fd8fa {
+  color: #fdfdfd;
+  background: #2220;
+  border: 0px solid transparent;
+}
+.parisa-css .btn-primary {
+  color: white;
+  background: rgba(9, 156, 167, 0.432) !important;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  line-height: 0;
+  border-radius: 8px;
+}
+.parisa-css .INPUT-FORM1,
+.msg textarea {
+  background: transparent;
+  border: 90%;
+  color: #000203;
+  width: 52%;
+  margin-top: 30%;
+}
+
+/*abed*/
+.list-group-item {
+  border-radius: 0px !important;
+}
+
+.chProfileOwner-list-group-item {
+  padding: 10%;
+  background-color: #394264;
+}
+
+.list-group {
+  border-radius: 0%;
+  margin-top: 0%;
+  background-color: #394264;
+}
+.img-thumbnail {
+  padding: 0rem;
+  background-color: #fff0;
+  border: 0px solid #dee2e600;
+  border-radius: 2rem;
+  max-width: 18%;
+  height: auto;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+.MuiBadge-root {
+  margin-left: 3%;
+  margin-top: 4%;
+}

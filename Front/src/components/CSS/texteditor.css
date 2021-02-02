@@ -1,0 +1,63 @@
+#editor .modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#editor .modal .modal-main {
+  position: fixed;
+  background: #121b2b;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#editor .modal .modal-main .modal-footer {
+  justify-content: unset !important;
+}
+
+.jodit-wysiwyg {
+  background-color: #dddde9 !important;
+}
+.jodit-toolbar__box {
+  background: #292929 !important;
+}
+.jodit-toolbar__box svg {
+  fill: #92efff !important;
+}
+
+.jodit-toolbar-editor-collection_size_middle.jodit-toolbar-editor-collection_mode_horizontal {
+  background-image: repeating-linear-gradient(
+    #00a1ff17,
+    #00a1ff70 37px,
+    #00c4ff 38px
+  );
+}
+
+.jodit-workplace + .jodit-status-bar:not(:empty) {
+  border-top: 1px solid #84f5f0;
+  background-image: repeating-linear-gradient(
+    #00a1ff17,
+    #00a1ff70 37px,
+    #00c4ff 38px
+  );
+}
+.jodit_theme_dark .jodit-placeholder {
+  color: hsl(0deg 5% 24% / 80%);
+}
+.jodit_theme_dark .jodit-toolbar-button__button:hover:not([disabled]) {
+  background-color: #1c4177;
+}
+
+.editor-exitImg {
+  width: 2%;
+  position: absolute;
+  margin-left: 99%;
+  margin-top: -1%;
+  cursor: pointer;
+}

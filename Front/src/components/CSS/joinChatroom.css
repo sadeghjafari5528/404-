@@ -1,0 +1,99 @@
+.joinChatroom label {
+  font-size: large;
+}
+
+.joinChatroom-clearFix {
+  height: 8%;
+  width: 100%;
+}
+
+.joinChatroom a {
+  color: #7a7aff73 !important;
+  font-size: medium !important;
+}
+
+.joinChatroom a:hover {
+  color: #5151e9e7 !important;
+}
+
+.joinChatroom p {
+  color: #7474ab !important;
+  font-size: medium !important;
+}
+
+.joinChatroom label {
+  font-size: large !important;
+  color: #9d9dd1 !important;
+}
+
+.joinChatroom h1 {
+  font-size: larger !important;
+  color: #9d9dd1;
+}
+
+.joinChatroom-main-box {
+  width: 100%;
+  height: 30vh;
+  background: #333b60;
+}
+
+.joinChatroom-exitImg {
+  width: 5%;
+  position: absolute;
+  margin-left: 98%;
+  margin-top: -2%;
+  cursor: pointer;
+}
+
+.joinChatroom-elements {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #5c6bc0;
+}
+
+.joinChatroom-lable {
+  margin-top: 2%;
+}
+
+.joinChatroom-text {
+  margin-top: 2%;
+}
+
+.joinChatroom-buttons {
+  width: 100%;
+}
+
+.joinChatroom-buttons button {
+  width: 50%;
+  height: 5vh;
+  outline: none;
+}
+
+.joinChatroom .joinButton {
+  background-color: #888eb7;
+  border-left: 2px solid black !important;
+}
+
+.joinChatroom .notNowButton {
+  background-color: #777986;
+}
+
+#joinChatroom .modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#joinChatroom .modal .modal-main {
+  position: fixed;
+  background: #33415c;
+  width: 27vw !important;
+  height: 20vh !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

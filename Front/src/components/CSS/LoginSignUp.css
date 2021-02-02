@@ -1,0 +1,300 @@
+.Abed-css * {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+/* h4 {
+    margin-left: 3%;
+    margin-top: 7%;
+  } */
+
+.Abed-css h5 {
+  text-align: center;
+  margin-top: -6.5%;
+  margin-left: 15%;
+  position: absolute;
+}
+
+.Abed-css p {
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 0%;
+  color: #289ecb;
+}
+
+.Abed-css input {
+  color: black !important;
+  width: 20%;
+  height: 4%;
+  border-radius: 1px;
+  border-color: #9a79ea;
+  outline: none;
+  text-indent: 10%;
+  border-width: 1px;
+  position: absolute;
+}
+
+.Abed-css button {
+  border-radius: 0px;
+  background: #a47af5;
+  cursor: pointer;
+  border-width: 0px;
+  color: black !important;
+  font-size: 16px !important;
+  outline: none !important;
+}
+
+.Abed-css a {
+  text-decoration: none;
+  color: black;
+}
+
+.Abed-css .logo {
+  position: relative;
+  width: 100%;
+}
+
+.Abed-css .mainBox {
+  width: 40%;
+  height: 100%;
+  background: #b5c2ef;
+  border: 0px solid #bed4d3;
+  border-radius: 0px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 60%;
+  padding-top: 140px;
+}
+
+.Abed-css .emailImg {
+  width: 1.5%;
+  position: absolute;
+  margin-top: -22.75%;
+  margin-left: 7.5%;
+  z-index: 1;
+}
+
+.Abed-css .passImg {
+  width: 1.5%;
+  position: absolute;
+  margin-top: -18.75%;
+  margin-left: 7.5%;
+  z-index: 1;
+}
+
+.Abed-css .emailImgSignUp {
+  width: 1.5%;
+  position: absolute;
+  margin-top: -22.75%;
+  margin-left: 7.5%;
+  z-index: 1;
+}
+
+.Abed-css .passImgSignUp {
+  width: 1.5%;
+  position: absolute;
+  margin-top: -18.75%;
+  margin-left: 7.5%;
+  z-index: 1;
+}
+
+.Abed-css .confirmImg {
+  width: 1.2%;
+  position: absolute;
+  margin-top: -14.75%;
+  margin-left: 7.5%;
+  z-index: 1;
+}
+
+.Abed-css .emailField {
+  margin-top: -23%;
+  margin-left: 7%;
+  padding-left: 1%;
+  /* border-radius: 8px; */
+}
+
+.Abed-css .passField {
+  margin-top: -19%;
+  margin-left: 7%;
+  padding-left: 1%;
+  /* border-radius: 8px; */
+}
+
+.Abed-css .emailFieldSignUp {
+  margin-top: -23%;
+  margin-left: 7%;
+  padding-left: 1%;
+  /* border-radius: 8px; */
+}
+
+.Abed-css .passFieldSignUp {
+  margin-top: -19%;
+  margin-left: 7%;
+  padding-left: 1%;
+  /* border-radius: 8px; */
+}
+
+.Abed-css .confirmPassField {
+  margin-top: -15%;
+  margin-left: 7%;
+  padding-left: 1%;
+  /* border-radius: 8px; */
+}
+
+.Abed-css .signUpLink {
+  padding: 0px;
+}
+
+.Abed-css .codeButton {
+  position: absolute;
+}
+
+.Abed-css .checkBox2 {
+  width: 2.5%;
+  margin-top: 1%;
+}
+
+.Abed-css .signInTransfer {
+  padding-top: 0%;
+  margin-top: -13%;
+  margin-left: 13%;
+  position: absolute;
+  width: 10%;
+}
+
+.Abed-css .signInTransfer a {
+  margin-left: 35%;
+  font-size: 80%;
+  margin-top: 1%;
+  color: #967c7c;
+}
+
+.Abed-css .signInTransfer Button {
+  position: relative;
+  padding: 4% 14%;
+  margin-top: -14%;
+  margin-left: -14%;
+  background: #5bd4e0;
+  /* border-radius: 18px; */
+}
+
+.Abed-css .signUpTransfer {
+  padding-top: 6%;
+  margin-top: -13%;
+  margin-left: 18%;
+  position: absolute;
+}
+
+.Abed-css .signUpTransfer button {
+  position: relative;
+  padding: 4% 14%;
+  margin-left: 22%;
+  margin-top: 6%;
+  /* border-radius: 18px; */
+}
+/*2 for signUp*/
+.Abed-css .signInTransfer2 {
+  padding-top: 6%;
+  margin-top: -10%;
+  margin-left: 18%;
+  position: absolute;
+}
+
+.Abed-css .signInTransfer2 button {
+  position: relative;
+  padding: 4% 16%;
+  margin-left: 24%;
+  margin-top: 6%;
+  /* border-radius: 18px; */
+}
+
+.Abed-css .signUpTransfer2 {
+  padding-top: 0%;
+  margin-top: -9%;
+  margin-left: 13%;
+  position: absolute;
+  width: 10%;
+}
+
+.Abed-css .signUpTransfer2 button {
+  position: relative;
+  padding: 4% 14%;
+  margin-top: -14%;
+  margin-left: 17%;
+  background: #5bd4e0;
+  /* border-radius: 18px; */
+}
+
+/*signIn conflicts*/
+.Abed-css .error {
+  color: red;
+}
+
+.validEmailSignIn {
+  position: absolute;
+  margin-top: -21%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.validpassSignIn {
+  position: absolute;
+  margin-top: -17%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.validFieldsSignIn {
+  position: absolute;
+  margin-top: -12%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+/*signUp conflicts*/
+.confirmPassConflict {
+  position: absolute;
+  margin-top: -13%;
+  margin-left: 15%;
+  font-size: 13px;
+  color: yellow;
+}
+
+.passValidSignUp {
+  position: absolute;
+  margin-top: -17%;
+  margin-left: 15%;
+  font-size: 13px;
+  color: yellow;
+}
+
+.validEmadilSignUp {
+  position: absolute;
+  margin-top: -21%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.validFieldSignUp {
+  position: absolute;
+  margin-top: -8%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.Abed-css .Toast button {
+  background-color: transparent !important;
+}
+.Toastify__toast--dark {
+  background: #626588 !important;
+  color: #fff !important;
+}
+#warning .Toastify__toast--dark {
+  background: #cc3300 !important;
+  color: #fff !important;
+}

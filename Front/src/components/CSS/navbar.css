@@ -1,0 +1,16 @@
+.navbar{
+    /* color: white !important; */
+    height: 9vh;
+    background-color: #141d48b3 !important;
+    /* color: white !important; */
+}
+.navbar-nav{
+    flex-direction: row;
+}
+.navbar-nav .active{
+    background-color: #545f91fc;
+    border-radius: 20px;
+}
+.nav-item {
+    width: fit-content !important;
+}

@@ -1,0 +1,50 @@
+.bottom{
+    display: inline-block;
+}
+#profile-img-in-chat{
+    width: 5vh;
+    border-radius: 60%;
+}
+div.container {
+    width:800px;
+    margin: 5em auto;
+}
+
+ul, li {
+    list-style: none;
+}
+
+em {
+    font-size:0.75em;
+}
+
+ul.simple-nested li {
+    margin-left: 3em;
+}
+
+div.comment {
+    background: #09186b99;
+    border: 3px solid #2363b8fc;
+    padding: .5% 2% .5% 2%;
+    margin-bottom: 1em;
+}
+
+ul.simple-nested li ul {
+    border-left: 3px solid #141d48;
+    position: relative;
+}
+
+ul.simple-nested li ul::before{
+    content: '';
+    border-bottom: 3px solid #141d48;
+    position: absolute;
+    width: 2.80em;
+    top: 2em;
+}
+.comment a:hover{
+    color: #9acbff;
+    text-decoration: none;
+}
+.handle-enter{
+    white-space: pre-wrap
+}

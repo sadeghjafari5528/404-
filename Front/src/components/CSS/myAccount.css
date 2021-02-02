@@ -1,0 +1,27 @@
+.avatar-size {
+  height: 22vh;
+  width: 22vh;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.myAccount-content {
+  border-radius: 5px;
+  height: 65vh;
+  width: 100%;
+  background-color: #5668aa75;
+}
+.nav-item .active {
+  background-color: #7b94f075 !important;
+  color: white !important;
+  border-bottom: none !important;
+}
+.nav-item {
+  width: 33.33%;
+  border-bottom: none !important;
+  margin-bottom: 0px !important;
+}
+.setting-username {
+  height: 5vh;
+  width: 70%;
+}

@@ -1,0 +1,87 @@
+
+/* .align-bottom{
+  position:absolute;                  
+  bottom:0;
+} */
+/* .align-right{
+  margin-right: 3%;
+  position:absolute;                  
+  right:0;
+} */
+.submit-button{
+  /* border-radius: 0px 0px 10px 10px ; */
+  width: 100%;
+  height: 5vh !important;
+}
+.full-box{
+  height: 100%;
+  padding-right: 0;
+}
+.chatbox{
+    /* display:table; */
+
+    /* padding: 0px; */
+  border: solid 5px #2363b8fc;
+  border-radius: 5px;
+  /* margin-top: 2%; */
+  /* margin-right: 2%; */
+  /* margin: 2% 2% 0% 2%; */
+  /* padding-bottom: 52%; */
+
+  /* min-height: 94%; */
+  /* border-radius: 20px; */
+  /* border: solid black 1px; */
+  background-color: #00000057 !important;
+  /* transition: height 2s; */
+}
+
+.chatbox ::-webkit-scrollbar-track {
+  background: #7b94f0;
+}
+.chatbox ::-webkit-scrollbar-thumb {
+  background:#141d48;
+}
+
+/* Handle on hover */
+.chatbox ::-webkit-scrollbar-thumb:hover {
+  background: #0a0e24;
+}
+.add-scroll{
+  overflow-y: auto;
+  height: calc(86vh - 55px);
+  
+}
+.add-scroll-active{
+  overflow-y: auto;
+  height: calc(78vh - 55px);
+ 
+}
+
+/* .chatbox .fill{
+    display :table-row;
+}
+.bottom{
+    display :table-row;
+    height: 5vh;
+} */
+.btn{
+  border-top: solid .25vh rgba(9, 156, 167, 0.432) ;
+  border-right: solid .25vh rgba(9, 156, 167, 0.432) ;
+  border-left: solid .25vh rgba(9, 156, 167, 0.432) ;
+  border-bottom: none;
+  background-color: #2363b8fc;
+  height: 5vh;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+body{
+  color: white;
+}
+
+
+body{
+    font: 1em/1.5em "HELVETICA NEUE" , Arial, Helvetica, Geneva, sans-serif;
+    color: #222;
+    background-color: #050035;
+}
+

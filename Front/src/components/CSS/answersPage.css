@@ -1,0 +1,59 @@
+.answerPage-backButton {
+  width: 100%;
+}
+
+.answerPage-backButton button:hover {
+  color: black;
+  text-decoration: none !important;
+}
+
+.answerPage-backButton button {
+  height: 4vh !important;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.answerPage-bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.empty-125 {
+  width: 12.5%;
+  background-color: #00000070;
+}
+
+.LinkButtons {
+  margin-top: 10%;
+}
+.question {
+  margin-top: 1%;
+  border: 1px solid #96a7f8;
+  min-height: 20%;
+}
+
+.clearFix {
+  height: 5%;
+}
+
+.abed-add-scroll-active {
+  overflow-y: auto;
+  height: calc(96vh - 55px);
+}
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(38, 60, 124);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(3, 14, 87);
+}
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(44, 72, 156);
+}

@@ -1,0 +1,159 @@
+body {
+  background-color: white;
+  font-size: 18px;
+}
+
+button {
+  color: white;
+  background-color: #3f51b5;
+  border: 0px;
+}
+
+#answer {
+  /* height: ; */
+  /* border: 6px solid rgba(9, 156, 167, 0.432); */
+  background: #38406599;
+}
+#answer #header {
+  background-color: #202c6699;
+  height: 12vh;
+  text-align: center;
+}
+#answer #header h1 {
+  font-size: 18px;
+}
+
+.center {
+  background-color: #00000030;
+}
+
+.profileImg {
+  width: 50% !important;
+  height: 50% !important;
+  border-radius: 50%;
+  margin-left: 42.5%;
+  margin-top: 1%;
+}
+
+.profileUsername {
+  margin-top: 1.5%;
+  margin-left: -1% !important;
+  font-size: 20px;
+}
+
+#answer #footer {
+  display: inline-block;
+  height: 10vh;
+  background-color: #202c6699;
+}
+#answer #left {
+  align-items: center;
+  background-color: #202c6699;
+  width: 10%;
+}
+#answer #middle {
+  width: 90%;
+  min-height: 2vh;
+  color: white;
+  background-color: #202c6699;
+}
+#answer #right {
+  background-color: #202c6699;
+  width: 15%;
+}
+
+#left img {
+  width: 22%;
+  margin-left: 30%;
+}
+
+.editButton {
+  width: 100%;
+  margin-top: 52%;
+}
+
+.removeButton {
+  margin-top: 3%;
+  width: 100%;
+}
+#answer #header #options .dropdown-toggle::after {
+  display: none;
+}
+
+#answer #header #options .btn {
+  border: none !important;
+  background-color: #39b7dd00 !important;
+  border-radius: 0px;
+  padding-right: 0px;
+}
+#answer #header #options .btn:hover {
+  color: cornflowerblue;
+  border: none !important;
+}
+#answer #header #options .btn:focus {
+  box-shadow: none !important;
+}
+
+.voteCount {
+  margin-left: 36%;
+  font-size: 23px;
+  color: #9d9dd1;
+}
+
+.negativeVoteImg {
+  cursor: pointer;
+}
+
+.positiveVoteImg {
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.date {
+  margin-left: -2%;
+  color: #9d9dd1;
+  font-size: 16px;
+}
+
+.trueAnswer {
+  margin-top: 3%;
+  margin-left: 0.5%;
+  min-height: 45px;
+}
+.trueAnswer svg {
+  cursor: pointer;
+}
+
+.trueAnswer .trueAnswerNotOwner {
+  cursor: none;
+}
+
+.dropDown {
+  background-color: rgb(48, 68, 121);
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #9d9dd1;
+}
+
+.vote svg {
+  cursor: pointer;
+}
+
+.vote {
+  margin-left: -24%;
+}
+
+.profileAvatarBox {
+  width: 11%;
+  margin-left: 8%;
+  margin-top: 1%;
+}
+
+.profileAvatar {
+  width: 100%;
+}

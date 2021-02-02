@@ -1,0 +1,55 @@
+
+.Submit-button-active{
+  border-radius: 0px;
+  /* display: inline-block; */
+  width: 10%;
+  height: 5vh !important;
+  align-items: flex-end !important;
+  margin-left: auto;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: #333b60;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.modal-footer{
+  justify-content: unset !important;
+}
+.flex-start{
+  display: inline-block;
+}
+
+.flex-end{
+  display: inline-block;
+  width: 100%;
+  justify-content: flex-end !important;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.submit-button{
+/* border-radius: 0px 0px 10px 10px ; */
+width: 100%;
+height: 5vh !important;
+}
+.modal-footer .row{
+  width: 100%;
+}

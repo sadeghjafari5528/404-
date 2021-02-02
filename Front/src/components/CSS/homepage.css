@@ -1,0 +1,30 @@
+.LeftColumn{
+    background-color: #141d48b3;
+    position: relative;
+    height: 100vh;
+    width: 20%;
+    display: inline-block;
+}
+.RightColumn{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    vertical-align:top;
+}
+body, html {
+    height: 100%;
+    overflow-y: hidden;
+}
+  
+.bg {
+    /* The image used */
+    background-image: url("../../img/bg.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
