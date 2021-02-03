@@ -35,7 +35,6 @@ gevent==20.9.0
 greenlet==0.4.17
 h11==0.11.0
 haikunator==2.1.0
-hazm==0.7.1
 hiredis==1.1.0
 hyperlink==20.0.1
 idna==2.10
