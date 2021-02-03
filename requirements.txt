@@ -62,7 +62,6 @@ pyodbc==4.0.30
 pyOpenSSL==20.0.0
 pypiwin32==223
 pytz==2020.1
-pywin32==300
 redis==3.5.3
 regex==2020.11.13
 requests==2.25.0
