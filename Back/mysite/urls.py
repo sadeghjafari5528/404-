@@ -13,7 +13,7 @@ urlpatterns = [
     path('api/token/refresh/' , jwt_views.TokenRefreshView.as_view()),
     path('api/' , include("userprofile.urls")),
     path('api/' , include("chatroom.urls")),
-    path('api/', include('generalchatroom.urls')),
+    path('', include('generalchatroom.urls')),
 	path('api/' , include("join.urls")),
 ]
 urlpatterns = urlpatterns + static('media' , document_root='media')
